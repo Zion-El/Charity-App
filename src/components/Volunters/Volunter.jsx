@@ -11,28 +11,28 @@ import img4 from "../../asset/v4.jpg";
         name: "Mr Ayodeji Oluwafemi",
         img: img4,
         position: "Patron",
-        content: "As a senior Pastor, Mission and evangelism coordinator, he has been involved and led team of others in evangelism, medical outreaches, church pioneering works and other humanitarian services. He is always ready to support and render help to the hopeless. He is presently the  Managing Director of Projects Costs Limited, registered Quantity Surveying and a project management company."
+        content: "Has been involved and led several teams in medical outreaches, and other humanitarian services. He is a senior Pastor and the Managing Director of Projects Costs Limited, a registered Quantity Surveying and a project management company."
     },
     {
         id:2,
         name: "Mr Oyewole Oyelayo ",
         img: img3,
         position:"Vice President",
-        content: "He is the vice president and co- founder of Naomi Hope Foundation. He has love for humanity and passion to help the less privileged.His vision is to minister to the vulnerable communities and lend a helping hand to fight poverty. He has many years of experience in the Insurance industry. He is currently working with a reputable Information Technology Company in Lagos Nigeria"
+        content: "He is the vice president and co- founder of Naomi Hope Foundation. He has a vision make the lives of the less privileged in poor communities in Nigeria worth living. He is a renowned Information Technology Expert and Practitioner. "
     },
     {
         id:3,
         name: "Mrs Oluwaseun Adeyeye ",
         img: img1,
         position: "Head of Administration",
-        content: "She is the head of administrative unit of Naomi Hope foundation. she has the love and passion for humanitarian services, dedicated and committed person in the course of eradicating poverty in the society. She has many years of experience in the insurance industry  and currently working with Tangerine insurance Company in Lagos Nigeria."
+        content: "She is the head of administrative unit of Naomi Hope foundation. She is a humanitarian dedicated to the course of eradicating poverty in the society. She works with Tangerine Africa."
     },
     {
         id:4,
         name: "Mrs Olawumi Oyelayo",
         img: img2,
         position:"Founder",
-        content: "A visionary and passionate woman with the aim to affect positively the lives of widows, orphan and the needy in the society. A kindhearted person who geared towards helping others and the challenged in society. Over the years, she has been supporting the orphanage homes and widows to live a better and fulfilled life. She is presently the managing Director of Adullam Nigeria Company. She is a minister of God."
+        content: "She is the founder and president of Naomi Hope Foundation. A visionary and passionate woman with the aim to affect positively the lives of widows, orphan and the needy in the society. She is also the managing Director of Adullam Nigeria Company."
     }
   ];
 
