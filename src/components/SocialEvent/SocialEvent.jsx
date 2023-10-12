@@ -37,7 +37,7 @@ const SocialEvent = () => {
                 <i className="fas fa-clock">&nbsp; </i>{event.time}
               </p>
               <p>
-                <i className="fas fa-map"></i> To be disclosed <Link style={{ color:"#A020F0"}} to='/contact'>Contact Us</Link>
+                <i className="fas fa-map"></i> To be disclosed <Link className="contact-btn" to='/contact'>Contact Us</Link>
               </p>
               {/* <p>
                 <i className="fas fa-calender"></i>{event.time}
@@ -53,9 +53,22 @@ const SocialEvent = () => {
   return (
     <div className="social-wrap">
       <div className="events">
-        <Row>
-          {events}
-        </Row>
+        {
+          socialEvents.map((event, img)=>{
+            return (
+              <div className="event-card">
+                <div className="event-img">
+                  <img src={event.img} alt="" />
+                </div>
+                <div className="event-desc">
+                  <h4>{event.title}</h4>
+                  <p>{event.time}</p>
+                  <p>To be disclosed: <Link className="contact-btn" to='/contact'>Contact Us</Link></p>
+                </div>
+              </div>
+            )
+          })
+        }
       </div>
     </div>
   );

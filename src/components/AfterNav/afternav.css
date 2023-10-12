@@ -1,17 +1,36 @@
 .afternav-wrap{
     background: url("../../asset/img5.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
+    width: 100%;
     height: 300px;
-    /* background-blend-mode: m; */
+    position: relative;
+    z-index: -1;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-color: green; */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 .a-content{
-    padding-top: 150px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20%);
 }
 .a-content h3{
     font-size: 40px;
     color:#fff;
     margin-bottom: 20px;
+    z-index: 10;
 }
 .a-content p i {
     width: 40px;

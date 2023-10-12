@@ -40,8 +40,7 @@ const cause = causes.map((c)=>{
       
         <div className='major-cause'>
             <div className='m-text'>
-                <h2 className='text-center'>Our Major Causes</h2>
-                
+                <h2 className='text-center'>Our Major Causes</h2>    
             </div>
             <div className='row'>
             {cause}

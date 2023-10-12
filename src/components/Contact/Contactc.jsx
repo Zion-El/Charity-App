@@ -6,7 +6,7 @@ import axios from 'axios';
 
 // import axios from 'axios';
 const Contactc = () => {
-  const initialValues = { firstName: "", lastName: "", email: "" };
+    const initialValues = { firstName: "", lastName: "", email: "" };
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -38,10 +38,9 @@ const Contactc = () => {
     useEffect(() => {
     
       if (Object.keys(formErrors).length === 0 && isSubmit) {
-       
-    
       }
     }, [formErrors]);
+
     const validate = (values) => {
       const errors = {};
       const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
@@ -61,6 +60,7 @@ const Contactc = () => {
       } 
       return errors;
     };
+
   return (
     <div className='contact-wrap'>
       <Row>
@@ -109,8 +109,8 @@ const Contactc = () => {
           <div className='contact-left'>
             <ul>
               <li><i className='fa fa-home'></i> <span> No 4 Unity close, Segun Kujore Estate,</span><b />
-                <p>Off CMD Road, Magodo</p></li>
-              <li><i className='fa fa-phone'></i> <span>+2348038231531</span><b /></li>
+              <p>Off CMD Road, Magodo</p></li>
+              <li><i className='fa fa-phone'></i> <span>+234 803-823-1531</span><b /></li>
 
               <li><i className='fa fa-envelope'></i> naomihopefoundation22@gmail.com<span> </span><b /></li>
 

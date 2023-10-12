@@ -32,7 +32,6 @@ export default class Aboutc extends Component {
     }
     render() {
       var settings = {
-         
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -134,15 +133,17 @@ export default class Aboutc extends Component {
         name: "Love",
         icon:love
     }];
+
     const value = values.map((v)=>{
         return(
         <div key={v.id} className='col-lg-3 col-md-3'>
-       <div className='icon'><img  src={v.icon}/></div>
+       <div className='icon'><img src={v.icon}/></div>
         <div className='line'>
             <h2>{v.name}</h2>
         </div>
     </div>
     )})
+
     const team  = teams.map((t)=>{
         return(
             <div key={t.id}>
@@ -151,23 +152,29 @@ export default class Aboutc extends Component {
                
         )
     })
+
   return (
     <div className='a-bwrap'>
      <div className='a-a-wrap'>
-     <div className='row'>
-        <div className='col-lg-6 col-md-6 a-left'>
-            <img src={about} alt='about-img'/>
-        </div>
-        <div className='col-lg-6 col-md-6 a-right'>
-            <div className='card-a'>
-                <h1>We are a team of non-profit driven volunteers</h1>
-                <p>Naomi Hope Foundation is a non-governmental organization established in the year 2018 and officially registered with the Corporate Affairs Commission in 2022 to provide humanitarian services to the orphans, widows and less privileged children in the society. Since its inception in 2018, NHP has left no efforts in its quest to serve these categories of people and providing sustainable livelihoods.
-                Our aim is to care and meet their immediate needs such as foods, clothing, educational and medical support. We do not just have feelings for them, but we desire and work towards alleviating hunger and poverty to enable them have a better and satisfying life.
-                We hope to achieve our aims through partnership with sponsors, contributors and donations. A generous donation no matter how small it is can give someone a reason to breathe and survive in life.
-                </p>
-            </div>
-        </div>
-     </div>
+      <div className='row'>
+          <div className='col-lg-6 a-left'>
+              <img src={about} alt='about-img'/>
+          </div>
+          <div className='col-lg-6 a-right'>
+              <div className='card-a'>
+                  <h3>We are a team of non-profit driven volunteers</h3>
+                  <hr />
+                  <p>Naomi Hope Foundation is a non-governmental organization established in the year 2018 and officially registered with the Corporate Affairs Commission in 2022 to provide humanitarian services to the orphans, widows and less privileged children in the society. 
+                    <br /><br />
+                  Since its inception in 2018, NHP has left no efforts in its quest to serve these categories of people and providing sustainable livelihoods.
+                  Our aim is to care and meet their immediate needs such as foods, clothing, educational and medical support. We do not just have feelings for them, but we desire and work towards alleviating hunger and poverty to enable them have a better and satisfying life.
+                  <br /> <br />
+                  
+                  We hope to achieve our aims through partnership with sponsors, contributors and donations. A generous donation no matter how small it is can give someone a reason to breathe and survive in life.
+                  </p>
+              </div>
+          </div>
+      </div>
      </div>
      <div className='row mission-about'>
        <h3 style={{padding:"30px 0px"}}>Our Mission & Vision</h3>
@@ -202,9 +209,9 @@ export default class Aboutc extends Component {
             <h1>
                 Our Team
             </h1>
-            <Slider ref={c => (this.slider = c)} {...settings}>
+            {/* <Slider ref={c => (this.slider = c)} {...settings}>
                 {team}
-            </Slider>
+            </Slider> */}
         </div>
      </div>
     </div>

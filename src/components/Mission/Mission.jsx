@@ -22,35 +22,35 @@ const Mission = () => {
         content: "Through our initiative, we are able support children of underserved and remote communities in Nigeria to provide educational materials needed in learning.",
         img:img2
     }]
-    const mission  = missions.map((data) =>{
-        return( <Col key={data.id} lg={4} md={4} sm={12}>
-        <Card className="card-card border-0">
-        <Card.Img variant="top" src={data.img} />
-        <Card.Body>
-            <Card.Title className='card-t text-center'>{data.title}</Card.Title>
-            <Card.Text>
-            {data.content}
-            </Card.Text>
-            {/* <Button variant="primary">Go somewhere</Button> */}
-        </Card.Body>
-        </Card>
 
-        </Col>)
-    })
+    
   return (
     <>
         <Container className='mission-w' fluid="true">
             <div className="mission-top">
                 <p>What We Are Doing</p>
-                <h3>
-                We are on a mission  to <br/> help the most vulnerable 
-                </h3>
+                <h2>
+                We are on a mission to help the most vulnerable 
+                </h2>
             </div>
-            <div className='mission-wrap'>
-        <Row>
-          {mission}
-        </Row>
-        </div>
+            <div className='mission-box'>
+                {
+                    missions.map((mis, index)=>{
+                        return(
+                            <div key={index} className='mis-card'>
+                                <div>
+                                    <img src={mis.img} alt="" />
+                                </div>
+                                <div className='desc'>
+                                    <h4>{mis.title}</h4>
+                                    <hr/>
+                                    <p>{mis.content}</p>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </Container>
     </>
   )

@@ -8,11 +8,9 @@ import NavBar from '../components/NavBar/NavBar'
 const About = () => {
   return (
     <div>
-      <NavBar/>
       <AfterNav title="About Us" />
       <Aboutc/>
       <Bvolunteer/>
-      <Footer/>
     </div>
   )
 }

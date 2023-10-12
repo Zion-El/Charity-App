@@ -1,25 +1,34 @@
 .f-mission{
-    width: 95%;
-    margin: 90px 2.5%;
+    width: 100%;
+    height: 90vh;
+    padding: 4rem 3rem;
+    display: flex;
 }
+
+.f-left, .f-right{
+    width: 50%;
+}
+
 
 .f-left h6{
     color: #D235B0;
 
 }
-.f-left h2{
+.f-left h3{
     font-size: 40px;
     color: #451DE2;
 }
 
 .f-left p{
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 30px;
 }
 
 .f-right{
     position: relative;
+    padding: 1rem;
 }
+
 .f-right .img1 {
    height: 400px;
    right:20px;
@@ -27,6 +36,7 @@
     position: absolute;
     border-radius: 20px;
 }
+
 .f-right .img2 {
     position: absolute;
     height: 250px;
@@ -53,41 +63,41 @@
 
 @media (max-width:768px){
     .f-mission{
-        width: 95%;
-        margin: 90px 2.5%;
-        height: 550px !important;
+        width: 100%;
+        height: 90vh;
+        padding: 2rem;
+    }
+
+    .f-right{
+        width: 40%;
+    }
+    .f-left{
+        width: 60%;
     }
     
     .f-left h6{
         color: #D235B0;
     
     }
-    .f-left h2{
-        font-size: 25px;
+    .f-left h3{
+        font-size: 28px;
         color: #451DE2;
     }
     
     .f-left p{
-        font-size: 20px;
+        font-size: 16px;
         padding-bottom: 30px;
     }
     
     .f-right .img1 {
-        height: 400px;
-        right:20px;
-        width:70%;
-         position: absolute;
-         border-radius: 20px;
+        height: 300px;
+        right: 0;
+        width: 90%;
      }
      .f-right .img2 {
-         position: absolute;
-         height: 250px;
-         left:20px;
-         width:50%;
-         top:300px;
-         border-radius: 10px;
-         
+         display: none;
       }
+
     .f-btn a {
         color: white;
         background-color: #D235B0;
@@ -99,48 +109,45 @@
     
 }
 
-@media (max-width:425px){
+@media (max-width:445px){
     .f-mission{
-        width: 95%;
-        margin: 40px 2.5%;
-        height: 930px !important;
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+        gap :50px;
     
     }
+    .f-left, .f-right{
+        width: 100%;
+        padding: 0;
+    }
+
+
     
     .f-left h6{
         color: #D235B0;
         padding-left: 10px;
     
     }
-    .f-left h2{
+    .f-left h3{
         font-size: 20px;
         color: #451DE2;
         padding-left: 10px;
     }
     
     .f-left p{
-        font-size: 16px;
+        font-size: 14px;
         padding-bottom: 30px;
-        padding-left: 10px;
     }
     
     .f-right .img1 {
-        height: 300px;
-        right:10px;
-        width:70%;
-         position: absolute;
+        height: 200px;
+        width: 100%;
+
+         position: relative;
          border-radius: 20px;
          top: 30px;
      }
-     .f-right .img2 {
-         position: absolute;
-         height: 200px;
-         left:20px;
-         width:50%;
-         top:300px;
-         border-radius: 10px;
-         
-      }
+
     .f-btn a {
         color: white;
         background-color: #D235B0;

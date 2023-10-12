@@ -1,10 +1,13 @@
 import React, {useState, useEffect} from 'react'
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import logo from "../../asset/logo.png";
 import "./NavBar.css"
+
 const NavBar = () => {
     const [nav, setNav] = useState("#navbar");
     const [icon, setIcon] = useState("fas fa-bars");
+    const  router = useLocation()
+
     const navToggle = () => {
         if (nav === "#navbar") {
           setNav("#navbar active");
@@ -15,40 +18,30 @@ const NavBar = () => {
           setIcon("fas fa-times");
         } else setIcon("fas fa-bars");
       };
-      const [colorChange, setColorchange] = useState(false);
-      const changeNavbarColor = () =>{
-          if(window.scrollY >= 80){
-          setColorchange(true);
-          }
-          else{
-          setColorchange(false);
-          }
-      };
-      window.addEventListener('scroll', changeNavbarColor);
-      let pathname = window.location.pathname;
-      useEffect(()=> {
-        pathname = window.location.pathname;
-      },[window.location.pathname]);
+
+
+
   return (
     <>
-    <nav  className={colorChange ? 'navChange' : 'nav'} >
+    <nav   >
         <Link to="/"><img id='logo-image' src={logo} alt='logoimage' /></Link>
+
+        <ul id='navbar' className={nav}>
+                <li><Link to="/" className={`${router.pathname === '/'? 'active' : ''}`}>Home</Link></li>
+                <li><Link to="/about" className={`${router.pathname.includes('/about')? 'active' : ''}`}>About</Link></li>
+                <li><Link to="/social-events" className={`${router.pathname.includes('/social-events')? 'active' : ''}`}>Social Events</Link></li>
+                <li><Link to="/latest-causes" className={`${router.pathname.includes('/latest-causes')? 'active' : ''}`}>Latest Causes</Link></li>
+                <li><Link to="/contact" className={`${router.pathname.includes('/contact')? 'active' : ''}`}>Contact Us</Link></li>                
+        </ul>
+
+
         <div>
-            <ul id='navbar' className={nav}>
-                <li><Link to="/" className='active'>Home</Link></li>
-                <li><Link to="/about" className={`${pathname.match('/about')? 'active' : ''}`}>About</Link></li>
-               
-                <li><Link to="/social-events" className={`${pathname.match('/social-events')? 'active' : ''}`}>Social Events</Link></li>
-                <li><Link to="/latest-causes" className={`${pathname.match('/latest-causes')? 'active' : ''}`}>Latest Causes</Link></li>
-                <li><Link to="/contact" className={`${pathname.match('/contact')? 'active' : ''}`}>Contact Us</Link></li>
-                <li><Link to="/contact" id='donate-btn2'>Donate</Link></li>
-                <li><Link to="/contact" id='donate-btn'>Donate</Link></li>
-                
-            </ul>
+          {/* <Link to="/contact" id='donate-btn2'>Donate</Link> */}
+          <Link to="/contact" id='donate-btn'>Donate</Link>
         </div>
+
         <div id='mobile'>
             <i id='bar' onClick={navToggle} className={icon}></i>
-    
         </div>
 
     </nav>

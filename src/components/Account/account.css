@@ -21,6 +21,12 @@
     font-weight: 400;
 }
 
+.hr{
+    background: #451DE2;
+    width: 50%;
+    height: 3px;
+}
+
 @media (max-width: 768px){
   
     .a-wrap-content{

@@ -9,12 +9,10 @@ import NavBar from '../components/NavBar/NavBar'
 const Contact = () => {
   return (
     <div>
-        <NavBar/>
         <AfterNav title="Contact Us"/>
         <Contactc/>
         <Account/>
         <Bvolunteer/>
-        <Footer/>
       
     </div>
   )

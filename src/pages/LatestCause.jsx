@@ -9,11 +9,9 @@ import NavBar from '../components/NavBar/NavBar'
 const LatestCause = () => {
   return (
     <>
-    <NavBar/>
     <AfterNav title="Latest Causes"/>
     <Heading/>
     <Bvolunteer/>
-    <Footer/>
     </>
   )
 }

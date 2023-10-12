@@ -1,11 +1,11 @@
 
 .cause-wrap{
     width: 70%;
-    margin: 80px 15%;
+    margin: 0px 15% 40px 15%;
     background-color: rgba(203, 208, 210, 0.37);
     padding: 30px;
     border-radius: 20px;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .cause-wrap h5{

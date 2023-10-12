@@ -4,12 +4,12 @@
     background-color: white !important;
 }
 
-
- 
   .bloc-tabs {
-    text-align: center;
-    margin-top: 60px;
-
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
   }
   .tabs {
   background-color:transparent;
@@ -17,7 +17,7 @@
   margin: 10px;
   border-radius: 20px;
   color: #A020F0;
-border: solid 1px #A020F0;
+  border: solid 1px #A020F0;
    
   }
   .tabs:not(:last-child){
@@ -26,9 +26,6 @@ border: solid 1px #A020F0;
   
   .active-tabs  {
     background-color:#A020F0;
-    padding: 10px 40px;
-
-    border-radius: 20px;
     color: #fff;
   }
   
@@ -43,9 +40,7 @@ border: solid 1px #A020F0;
     height: 5px;
     background: rgb(88, 147, 241);
   }
-  
-  
-  
+    
   button {
     border: none;
     
@@ -73,16 +68,17 @@ border: solid 1px #A020F0;
     width: 80%;
     margin:20px 10%;
   }
+
   hr{
     width: 100%;
     text-align: center;
     color: #451DE2;
-
   }
 
   .card-content h2{
     font-size: 20px;
   }
+
   .card-content button {
     background-color: white;
     padding: 10px 60px;
@@ -113,26 +109,47 @@ border: solid 1px #A020F0;
       width: 100%;
       text-align: center;
       color: #451DE2;
-  
     }
-  
+
     .card-content h2{
       font-size: 20px;
     }
+
     .card-content button {
-     
       padding: 7px 40px;
       border-radius: 15px;
       margin: 10px 0px;
-    
     }
+
     .card-content p {
       padding: 3px 0px;
     }
+
     .card-content a {
       padding: 7px 40px;
-     
       text-decoration: none;
       border-radius: 15px;
     }
+  }
+
+  @media screen and (max-width:600px) {
+    .bloc-tabs{
+      gap: 1rem;
+      margin-bottom: -50px;
+    }
+    .tabs {
+      background-color:transparent;
+      padding: 5px 10px;
+      margin: 10px;
+      border-radius: 20px;
+      color: #A020F0;
+      border: solid 1px #A020F0;
+      font-size: 14px;
+      }
+
+      .active-tabs  {
+        background-color:#A020F0;
+        color: #fff;
+      }
+      
   }

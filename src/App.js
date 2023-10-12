@@ -11,10 +11,13 @@ import {
 } from "react-router-dom";
 import LatestCause from './pages/LatestCause';
 import SocialCause from './pages/SocialCause';
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <BrowserRouter>
+    <NavBar/>
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About/>}/>
@@ -22,6 +25,7 @@ function App() {
       <Route path="/latest-causes" element={<LatestCause/>}/>
       <Route path="/social-events" element={<SocialCause/>}/>  
     </Routes>
+    <Footer/>
   </BrowserRouter>
   );
 }

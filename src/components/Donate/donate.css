@@ -1,7 +1,14 @@
-.donate-wrap{
-   
+.donate{
     background-color:#899396;
     padding: 40px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-left, .c-middle, .c-right{
+    width: 30%;
 }
 
 .c-left h2{
@@ -16,7 +23,7 @@
 .c-left p{
     text-align: left;
     color:#FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .c-right h2{
@@ -31,7 +38,7 @@
 .c-right p{
     text-align: right;
     color:#FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
 }
 .btn-c-left a{
     font-size: 20px;
@@ -76,8 +83,32 @@
 }
 
 @media (max-width:768px){
-    .img-middle img{
+
+    .donate{
+        background-color:#899396;
+        padding: 40px;
         width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .c-left, .c-middle, .c-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .c-left p, .c-right p, .c-left h3, .c-right h3{
+        text-align: center;
+    }
+
+    .img-middle img{
+        width: 500px;
         height: 350px;
     
     }
@@ -92,20 +123,28 @@
     }
 }
 
-@media (max-width:425px){
+@media (max-width:455px){
+
+    .donate{
+        justify-content: flex-start;
+        gap :5rem
+    }
+    .c-left p, .c-right p{
+        font-size: 14px;
+    }
+
+    .c-middle{
+        display: none;
+    }
     .img-middle img{
         width: 100%;
         height: 300px;
-        margin: 20px 0px;
-    
     }
 
     .btn-c-right a, .btn-c-left a{
         font-size: 16px;
         padding: 10px 30px;
         background-color: #A020F0;
-       
-        
     
     }
 }
