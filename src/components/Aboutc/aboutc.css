@@ -141,7 +141,7 @@
         z-index: 2 !important;
         /* margin: 0px 1%; */
         right: 0px;
-        /* height: 750px; */
+        height: 500px;
         top: 40px;
     }
     .card-a h1{
@@ -224,7 +224,7 @@
         z-index: 2 !important;
         margin: 0px 1%;
         right: 10px;
-        height: 640px !important;
+        height: 550px !important;
         top: 40px;
     }
     .card-a h1{
@@ -289,7 +289,7 @@
     }
     .mission-about{
         background-color:#F8EEFE;
-        margin-top: 330px !important;
+        margin-top: 100px !important;
         text-align: center;
         padding: 20px 0px;
         margin-bottom: -300px !important;

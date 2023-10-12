@@ -7,7 +7,7 @@ import Volunter from '../components/Volunters/Volunter'
 
 const About = () => {
   return (
-    <div>
+    <div style={{overflowX:'hidden'}}>
       <AfterNav title="About Us" />
       <Aboutc/>
       <Volunter/>
