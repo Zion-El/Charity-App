@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import "./volunter.css";
 import img1 from "../../asset/v1.jpg";
 import img2 from "../../asset/F.jpg";
@@ -35,7 +33,8 @@ import img4 from "../../asset/v4.jpg";
         img: img2,
         position:"Founder",
         content: "A visionary and passionate woman with the aim to affect positively the lives of widows, orphan and the needy in the society. A kindhearted person who geared towards helping others and the challenged in society. Over the years, she has been supporting the orphanage homes and widows to live a better and fulfilled life. She is presently the managing Director of Adullam Nigeria Company. She is a minister of God."
-    }];
+    }
+  ];
 
 export default class Volunter extends Component {
   render() {
@@ -44,8 +43,33 @@ export default class Volunter extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3,
-      
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
       <div className="vol-box">
@@ -55,7 +79,8 @@ export default class Volunter extends Component {
               {
                   volunteers.map((item, index)=>{
                       return(
-                          <div className="vol-card" key={index}>
+                        <div className="vol-cardbox">
+                          <div className="vol-card" key={item.id}>
                             <div className="vol-header">
                               <img className="vol-img" src={item.img} alt="volt" />
                               <div>
@@ -70,7 +95,9 @@ export default class Volunter extends Component {
                               <div className="vol-body">
                                 <p>{item.content}</p>
                               </div>
-                          </div>
+                          </div>                          
+                        </div>
+
                       )
                   })
               }

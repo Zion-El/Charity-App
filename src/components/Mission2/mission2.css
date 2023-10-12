@@ -109,10 +109,10 @@
     
 }
 
-@media (max-width:445px){
+@media (max-width:700px){
     .f-mission{
         flex-direction: column-reverse;
-        padding: 2rem 1rem;
+        padding: rem 1rem;
         gap :50px;
     
     }
@@ -145,7 +145,7 @@
 
          position: relative;
          border-radius: 20px;
-         top: 30px;
+         top: 0px;
      }
 
     .f-btn a {
@@ -169,7 +169,7 @@
         width:70%;
          position: absolute;
          border-radius: 20px;
-         top: 30px;
+         top: 0px;
      }
      .f-right .img2 {
          position: absolute;

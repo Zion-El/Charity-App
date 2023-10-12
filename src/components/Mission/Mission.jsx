@@ -25,8 +25,8 @@ const Mission = () => {
 
     
   return (
-    <>
-        <Container className='mission-w' fluid="true">
+
+        <section className='mission-w'>
             <div className="mission-top">
                 <p>What We Are Doing</p>
                 <h2>
@@ -51,8 +51,7 @@ const Mission = () => {
                     })
                 }
             </div>
-        </Container>
-    </>
+        </section>
   )
 }
 

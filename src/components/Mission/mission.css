@@ -1,8 +1,8 @@
 .mission-w{
     background-color: rgba(248, 238, 254, 0.99);
-    padding: 40px 0px;
-    
+    padding: 40px 0px;   
 }
+
 .mission-top{
     padding-top: 40px;
     display: flex;
@@ -71,7 +71,11 @@
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:670px) {
+    .mission-w{
+        padding-bottom: 30px;
+        
+    }
     .mission-box{
         flex-direction: column;
     }

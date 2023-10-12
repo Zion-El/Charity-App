@@ -8,6 +8,14 @@
     align-items: center;
     flex-direction: column;
 }
+.vol-box h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+.vol-cardbox{
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
 .slider-box{
     width: 80%;
 }
@@ -15,7 +23,8 @@
     padding: 2rem;
     background-color: #fff;
     box-shadow: 5px, 5px, 5px, gray;
-    height: 400px;
+    height: 430px;
+    border-radius: 1rem;
 }
 
 
@@ -38,8 +47,12 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
     .vol-body p{
         font-size: 12px;
+    }
+
+    .vol-card{
+        height: 450px;
     }
 }

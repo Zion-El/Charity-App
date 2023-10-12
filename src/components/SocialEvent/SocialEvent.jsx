@@ -19,37 +19,7 @@ const SocialEvent = () => {
       time: "Every Christmas",
     },
   ];
-  const events = socialEvents.map((event)=>{
-    return(
-      <Col key={event.id} lg={6} md={12} sm={12}>
-      <Card className="event-wrap border-0">
-        <Row>
-          <Col lg={6} md={6} sm={12}>
-            <div className="event-image">
-              <img src={event.img} alt="eventlogo" />
-            </div>
-          </Col>
-          <Col lg={6} md={6} sm={12}>
-            <div className="event-content">
-              
-              <h4>{event.title}</h4>
-              <p>
-                <i className="fas fa-clock">&nbsp; </i>{event.time}
-              </p>
-              <p>
-                <i className="fas fa-map"></i> To be disclosed <Link className="contact-btn" to='/contact'>Contact Us</Link>
-              </p>
-              {/* <p>
-                <i className="fas fa-calender"></i>{event.time}
-              </p> */}
-            </div>
-          </Col>
-          
-        </Row>
-      </Card>
-    </Col>
-    )
-  })
+
   return (
     <div className="social-wrap">
       <div className="events">
