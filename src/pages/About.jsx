@@ -10,7 +10,7 @@ const About = () => {
     <div style={{overflowX:'hidden'}}>
       <AfterNav title="About Us" />
       <Aboutc/>
-      <Volunter/>
+      <Volunter />
     </div>
   )
 }

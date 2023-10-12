@@ -205,14 +205,7 @@ export default class Aboutc extends Component {
                 
             </div>
         </div>
-        <div className='t-team'>
-            <h1>
-                Our Team
-            </h1>
-            {/* <Slider ref={c => (this.slider = c)} {...settings}>
-                {team}
-            </Slider> */}
-        </div>
+
      </div>
     </div>
   )
