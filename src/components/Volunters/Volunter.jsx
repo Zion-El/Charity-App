@@ -63,7 +63,7 @@ export default class Volunter extends Component {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 650,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
