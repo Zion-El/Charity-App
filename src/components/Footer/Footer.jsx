@@ -35,9 +35,9 @@ const Footer = () => {
                     <div className='footer-4'>
                         <h6 className='ft-box-title'>Follow us on social media</h6>
                         <div className=''>
-                        <span><i className='fa fa-facebook'></i></span>
+                        <span><a href="https://www.facebook.com/profile.php?id=61552335391819&mibextid=LQQJ4d"><i className='fa fa-facebook'></i></a></span>
                         <span><i className='fa fa-linkedin'></i></span>
-                        <span><i className='fa fa-instagram'></i></span>
+                        <span><a href="http://Instagram.com/naomihopefoundation"><i className='fa fa-instagram'></i></a></span>
                         <span><i className='fa fa-twitter'></i></span>
                         </div>
                     </div>                    

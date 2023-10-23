@@ -6,7 +6,7 @@ import img2 from "../../asset/education.jpg";
 const Mission = () => {
     const missions = [{
         id:1,
-        title: "Food Suppies to Orphanages",
+        title: "Food Supplies to Orphanages",
         content: "We reach out to several orphanages in the country to distribute relief items, clothings and groceries. This is mostly done durimg festive seasons so that we can share ",
         img:img1
     },

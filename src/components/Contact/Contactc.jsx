@@ -110,9 +110,9 @@ const Contactc = () => {
             <ul>
               <li><i className='fa fa-home'></i> <span> No 4 Unity close, Segun Kujore Estate,</span><b />
               <p>Off CMD Road, Magodo</p></li>
-              <li><i className='fa fa-phone'></i> <span>+234 803-823-1531</span><b /></li>
+              <li><i className='fa fa-phone'></i> <span>+234 807-934-2191</span><b /></li>
 
-              <li><i className='fa fa-envelope'></i> naomihopefoundation22@gmail.com<span> </span><b /></li>
+              <li><i className='fa fa-envelope'></i>naomihopefoundation22@gmail.com<span> </span><b /></li>
 
             </ul>
             <div className='donatee'>
