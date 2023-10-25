@@ -144,7 +144,7 @@ const Payment = () => {
             <div className='col-lg-4 col-md-4 col-12' >
             <div className="card border-0">
             <div className='card-content text-center'>
-                <h3>PARTNER</h3>
+                <h3>Partner</h3>
                 <p>Lets work together</p>
                 <hr/>
                 <h2>₦500,000 & Above</h2>
