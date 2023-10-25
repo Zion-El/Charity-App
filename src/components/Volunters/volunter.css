@@ -56,3 +56,10 @@
         height: 450px;
     }
 }
+
+@media screen and (max-width: 650px) {
+
+    .vol-card{
+        height: 380px;
+    }
+}
