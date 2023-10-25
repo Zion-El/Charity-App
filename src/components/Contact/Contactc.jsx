@@ -117,9 +117,9 @@ const Contactc = () => {
             </ul>
             <div className='donatee'>
               <h3>To Donate !!!</h3>
-              <p>Naomi Hope Foundation Ltd</p>
-              <p>0547272639</p>
-              <p>Sterling Bank Plc</p>
+              <p>Naomi Hope Foundation</p>
+              <p>0760484440</p>
+              <p>Guaranty Trust Bank</p>
             </div>
           </div>
         </Col>

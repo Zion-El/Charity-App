@@ -10,9 +10,9 @@ const Account = () => {
         <div className="circle"></div>
         <div></div>
       </div>
-      <p>Account Name:  Naomi Hope Foundation Ltd</p>
-      <p>Account Number:  0547272639</p>
-      <p>Bank: Sterling Bank Plc</p>
+      <p>Account Name:  Naomi Hope Foundation</p>
+      <p>Account Number:  0760484440</p>
+      <p>Bank: Guaranty Trust Bank</p>
       
     </div>
   </div>
