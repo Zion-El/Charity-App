@@ -11,7 +11,7 @@ const Hero = () => {
 
         <h3>Join Us Today</h3>
         <h1>To make the world a better place</h1>
-        <p>We are a volunteer-driven organization with a specific focus on providing basic food and shelter to the less privilege in the society.</p>
+        <p>We are a volunteer-driven organization with a specific focus on providing food and sustainable means of livelihood to the less privilege in the society.</p>
 
         <div className='hero-btn'>
           <Link className='left' to="/about">About Us</Link>
