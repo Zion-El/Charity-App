@@ -107,7 +107,7 @@ const Payment = () => {
                 <h3>Individual</h3>
                 <p>For Individual</p>
                 <hr/>
-                <h2>₦5,000 and Above</h2>
+                <h2>₦2,000 and Above</h2>
                 <button>Monthly</button>
                 <p>Designed to suit those who can spare a little to give.</p>
                 <hr/>
@@ -127,7 +127,7 @@ const Payment = () => {
                 <h3>Corporate</h3>
                 <p>For corporate donations</p>
                 <hr/>
-                <h2>₦500,000 & Above</h2>
+                <h2>₦100,000 & Above</h2>
                 <button>Monthly</button>
                 <p>Created for the corporate donors who can spare more</p>
                 <hr/>
@@ -147,7 +147,7 @@ const Payment = () => {
                 <h3>PARTNER</h3>
                 <p>Lets work together</p>
                 <hr/>
-                <h2>₦1 Million & Above</h2>
+                <h2>₦500,000 & Above</h2>
                 <button>Monthly</button>
                 <p>Work with us by sponsoring selected projects</p>
                 <hr/>
