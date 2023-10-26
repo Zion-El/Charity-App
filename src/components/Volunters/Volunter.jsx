@@ -73,7 +73,7 @@ export default class Volunter extends Component {
     };
     return (
       <div className="vol-box">
-        <h2>Meet Our Volunteer </h2>
+        <h2>Meet Our Team </h2>
         <div className="slider-box">
           <Slider {...settings}>
               {

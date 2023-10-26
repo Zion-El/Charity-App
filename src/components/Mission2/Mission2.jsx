@@ -11,7 +11,7 @@ const Mission2 = () => {
     <div className='f-mission'>
             <div className='f-left'>
               <h6>About Our Foundation</h6>
-              <h3> We are on a mission  to<br/> to help the most vulnerable </h3>
+              <h3> We are on a mission  to<br/>help the most vulnerable </h3>
               <p>Naomi Hope Foundation is a non-governmental organization established in the year 2018 and officially registered with the Corporate Affairs Commission in 2022 to provide humanitarian services to the orphans, widows and less privileged children in the society.</p>
               <p>Since its inception in 2018, NHP has left no efforts in its quest to serve these categories of people and providing sustainable livelihoods.</p>
               <div className='f-btn'>

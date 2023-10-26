@@ -27,9 +27,9 @@ const Footer = () => {
                     </div>
                     <div className='footer-2'>
                         <h3 className='ft-box-title'>Contact Info</h3>
-                    <p><b>Address:</b> <br /> No 4 Unity close, Segun Kujore Estate, Off CMD Road, Magodo</p>
+                    <p><b>Address:</b> <br /> No 4 Unity Close, Off CMD Road, Magodo, Lagos</p>
                     <p><b>Email:</b> <br /> naomihopefoundation22@gmail.com</p>
-                    <p><b>Contact Us:</b> +2348038231531</p>
+                    <p><b>Contact Us:</b> +2348079342191</p>
                     </div>
 
                     <div className='footer-4'>
