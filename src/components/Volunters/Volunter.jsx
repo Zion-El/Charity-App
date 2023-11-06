@@ -11,7 +11,7 @@ import img4 from "../../asset/v4.jpg";
         name: "Rev Ayodeji Oluwafemi",
         img: img4,
         position: "Patron",
-        content: "He has been involved and led several teams in medical outreaches, and other humanitarian services. He is the Managing Director of Projects Costs Limited, a registered Quantity Surveying and a project management company."
+        content: "Rev. Deji Oluwafemi is a senior minister of Foursqure Gospel Church in Nigeria. He has been involved and led several teams in medical outreaches, and other humanitarian services. He is the Managing Director of Projects Costs Limited, a registered Quantity Surveying and a project management company."
     },
     {
         id:2,
