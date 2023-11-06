@@ -18,13 +18,13 @@ const Payment = () => {
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(1)}
           >
-            One Off Donation
+            Monthly
           </button>
           <button
             className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(2)}
           >
-            Monthly Donation
+            Annually
           </button>
           
         </div>

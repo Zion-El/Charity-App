@@ -8,17 +8,17 @@ import img4 from "../../asset/v4.jpg";
 
     const volunteers = [{
         id:1,
-        name: "Mr Ayodeji Oluwafemi",
+        name: "Rev Ayodeji Oluwafemi",
         img: img4,
         position: "Patron",
-        content: "Has been involved and led several teams in medical outreaches, and other humanitarian services. He is a senior Pastor and the Managing Director of Projects Costs Limited, a registered Quantity Surveying and a project management company."
+        content: "He has been involved and led several teams in medical outreaches, and other humanitarian services. He is the Managing Director of Projects Costs Limited, a registered Quantity Surveying and a project management company."
     },
     {
         id:2,
         name: "Mr Oyewole Oyelayo ",
         img: img3,
         position:"Vice President",
-        content: "He is the vice president and co- founder of Naomi Hope Foundation. He has a vision make the lives of the less privileged in poor communities in Nigeria worth living. He is a renowned Information Technology Expert and Practitioner. "
+        content: "He is the vice president and co- founder of Naomi Hope Foundation. He has a vision to make the lives of the less privileged in poor communities in Nigeria worth living. He is a renowned Information Technology Expert and Practitioner. "
     },
     {
         id:3,
