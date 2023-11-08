@@ -166,7 +166,7 @@ export default class Aboutc extends Component {
                   <hr />
                   <p>Naomi Hope Foundation is a non-governmental organization established in the year 2018 and officially registered with the Corporate Affairs Commission in 2022 to provide humanitarian services to the orphans, widows and less privileged children in the society. 
                     <br /><br />
-                  Since her inception in 2018, NHP has left no efforts in its quest to serve these categories of people and providing sustainable livelihoods.
+                  Since her inception in 2018, NHF has left no efforts in its quest to serve these categories of people and providing sustainable livelihoods.
                   Our aim is to care and meet their immediate needs such as foods, clothing, educational and medical support. We do not just have feelings for them, but we desire and work towards alleviating hunger and poverty to enable them have a better and satisfying life.
                   <br /> <br />
                   
